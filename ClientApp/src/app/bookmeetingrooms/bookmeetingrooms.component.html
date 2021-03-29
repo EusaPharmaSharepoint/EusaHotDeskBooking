@@ -1,0 +1,34 @@
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2 well">
+        <div class="col-sm-12 form-legend">
+          <h2>Book A Meeting Room</h2>
+        </div>
+        <div class="col-sm-12 form-column">
+          <form action="success" method="post">
+            <div class="form-group">
+              <label for="email">Add attendee's email address's</label>
+              <div class="form-group">
+                <input type="email" class="form-control" />
+                <input type="button" value="Add" class="btn btn-info">
+
+              </div>
+
+            </div>
+            <div class="form-group">
+              <label for="email-confirm">Select your booking date and time</label>
+
+            </div>
+            <div class="form-group">
+              <label for="country">Meeting Details</label>
+              <textarea [(ngModel)]="Message" [ngModelOptions]="{standalone: true}" type="text" rows="10" id="country" name="country" class="form-control" placeholder="Optional">
+              </textarea>
+            </div>
+            <input type="submit" value="Send" class="btn btn-primary">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,329 @@
+[
+  {
+
+    "Name": "Desk2",
+    "ECCDesk": false,
+    "CustomerService": false,
+    "Floor": "Groundround",
+    "RealDeskName": "G-002"
+  },
+  {
+    "Name": "Desk4",
+    "ECCDesk": false,
+    "CustomerService": false,
+    "Floor": "Ground",
+    "RealDeskName": "G-004"
+  },
+  {
+    "Name": "Desk9",
+    "ECCDesk": false,
+    "CustomerService": false,
+    "Floor": "Ground",
+    "RealDeskName": "G-009"
+  },
+  {
+    "Name": "Desk14",
+    "ECCDesk": false,
+    "CustomerService": false,
+    "Floor": "Ground",
+    "RealDeskName": "G-014"
+  },
+  {
+    "Name": "Desk17",
+    "ECCDesk": false,
+    "CustomerService": false,
+    "Floor": "Ground",
+    "RealDeskName": "G-017"
+  },
+  {
+    "Name": "Desk19",
+    "ECCDesk": false,
+    "CustomerService": false,
+    "Floor": "Ground",
+    "RealDeskName": "G-019"
+  },
+  {
+
+    "Name": "Desk22",
+    "ECCDesk": false,
+    "CustomerService": false,
+    "Floor": "Ground",
+    "RealDeskName": "G-022"
+  },
+  {
+    "Name": "Desk24",
+    "ECCDesk": false,
+    "CustomerService": false,
+    "Floor": "Ground",
+    "RealDeskName": "G-024"
+  },
+  {
+    "Name": "Desk25",
+    "ECCDesk": false,
+    "CustomerService": false,
+    "Floor": "Ground",
+    "RealDeskName": "G-025"
+  },
+  {
+    "Name": "Desk27",
+    "ECCDesk": false,
+    "CustomerService": false,
+    "Floor": "Ground",
+    "RealDeskName": "G-027"
+  },
+  {
+    "Name": "Desk30",
+    "ECCDesk": false,
+    "CustomerService": false,
+    "Floor": "Ground",
+    "RealDeskName": "G-030"
+  },
+  {
+    "Name": "Desk32",
+    "ECCDesk": false,
+    "CustomerService": false,
+    "Floor": "Ground",
+    "RealDeskName": "G-032"
+  },
+  {
+
+    "Name": "Desk38",
+    "ECCDesk": false,
+    "CustomerService": false,
+    "Floor": "Ground",
+    "RealDeskName": "G-038"
+  },
+  {
+    "Name": "Desk40",
+    "ECCDesk": false,
+    "CustomerService": false,
+    "Floor": "Ground",
+    "RealDeskName": "G-040"
+  },
+  {
+    "Name": "Desk42",
+    "ECCDesk": false,
+    "CustomerService": false,
+    "Floor": "Ground",
+    "RealDeskName": "G-042"
+  },
+  {
+    "Name": "Desk43",
+    "ECCDesk": false,
+    "CustomerService": false,
+    "Floor": "Ground",
+    "RealDeskName": "G-043"
+  },
+  {
+
+    "Name": "Desk46",
+    "ECCDesk": true,
+    "CustomerService": false,
+    "Floor": "Third",
+    "RealDeskName": "3-046"
+  },
+  {
+
+    "Name": "Desk40",
+    "ECCDesk": true,
+    "CustomerService": false,
+    "Floor": "Third",
+    "RealDeskName": "3-040"
+  },
+  {
+
+    "Name": "Desk13",
+    "ECCDesk": false,
+    "CustomerService": false,
+    "Floor": "Third",
+    "RealDeskName": "3-013"
+  },
+  {
+
+    "Name": "Desk50",
+    "ECCDesk": false,
+    "CustomerService": false,
+    "Floor": "Third",
+    "RealDeskName": "3-050"
+  },
+  {
+
+    "Name": "Desk60",
+    "ECCDesk": false,
+    "CustomerService": false,
+    "Floor": "Third",
+    "RealDeskName": "3-060"
+  },
+  {
+
+    "Name": "Desk66",
+    "ECCDesk": false,
+    "CustomerService": false,
+    "Floor": "Third",
+    "RealDeskName": "3-066"
+  },
+  {
+
+    "Name": "Desk67",
+    "ECCDesk": false,
+    "CustomerService": false,
+    "Floor": "Third",
+    "RealDeskName": "3-067"
+  },
+  {
+
+    "Name": "Desk70",
+    "ECCDesk": false,
+    "CustomerService": false,
+    "Floor": "Third",
+    "RealDeskName": "3-070"
+  },
+  {
+
+    "Name": "Desk11",
+    "ECCDesk": false,
+    "CustomerService": false,
+    "Floor": "Third",
+    "RealDeskName": "3-011"
+  },
+
+  {
+    "Name": "Desk42",
+    "ECCDesk": false,
+    "CustomerService": false,
+    "Floor": "Third",
+    "RealDeskName": "3-042"
+  },
+  {
+    "Name": "Desk37",
+    "ECCDesk": false,
+    "CustomerService": false,
+    "Floor": "Third",
+    "RealDeskName": "3-037"
+  },
+  {
+    "Name": "Desk35",
+    "ECCDesk": false,
+    "CustomerService": false,
+    "Floor": "Third",
+    "RealDeskName": "3-035"
+  },
+  {
+    "Name": "Desk33",
+    "ECCDesk": false,
+    "CustomerService": false,
+    "Floor": "Third",
+    "RealDeskName": "3-033"
+  },
+  {
+
+    "Name": "Desk31",
+    "ECCDesk": false,
+    "CustomerService": false,
+    "Floor": "Third",
+    "RealDeskName": "3-031"
+  },
+  {
+    "Name": "Desk27",
+    "ECCDesk": false,
+    "CustomerService": false,
+    "Floor": "Third",
+    "RealDeskName": "3-027"
+  },
+  {
+    "Name": "Desk25",
+    "ECCDesk": false,
+    "CustomerService": false,
+    "Floor": "Third",
+    "RealDeskName": "3-025"
+  },
+  {
+    "Name": "Desk21",
+    "ECCDesk": false,
+    "CustomerService": false,
+    "Floor": "Third",
+    "RealDeskName": "3-021"
+  },
+  {
+    "Name": "Desk19",
+    "ECCDesk": false,
+    "CustomerService": false,
+    "Floor": "Third",
+    "RealDeskName": "3-019"
+  },
+  {
+    "Name": "Desk09",
+    "ECCDesk": false,
+    "CustomerService": false,
+    "Floor": "Third",
+    "RealDeskName": "3-009"
+  },
+  {
+
+    "Name": "Desk07",
+    "ECCDesk": false,
+    "CustomerService": false,
+    "Floor": "Third",
+    "RealDeskName": "3-007"
+  },
+  {
+    "Name": "Desk02",
+    "ECCDesk": false,
+    "CustomerService": false,
+    "Floor": "Third",
+    "RealDeskName": "3-002"
+  },
+  {
+    "Name": "Desk51",
+    "ECCDesk": true,
+    "CustomerService": true,
+    "Floor": "Third",
+    "RealDeskName": "3-051"
+  },
+  {
+    "Name": "Desk53",
+    "ECCDesk": true,
+    "CustomerService": true,
+    "Floor": "Third",
+    "RealDeskName": "3-053"
+  },
+  {
+    "Name": "Desk58",
+    "ECCDesk": true,
+    "CustomerService": true,
+    "Floor": "Third",
+    "RealDeskName": "3-058"
+  },
+  {
+
+    "Name": "FDesk1",
+    "ECCDesk": true,
+    "CustomerService": true,
+    "Floor": "France",
+    "RealDeskName": "F-001"
+  },
+  {
+
+    "Name": "FDesk2",
+    "ECCDesk": true,
+    "CustomerService": true,
+    "Floor": "France",
+    "RealDeskName": "F-002"
+  },
+  {
+
+    "Name": "FDesk3",
+    "ECCDesk": true,
+    "CustomerService": true,
+    "Floor": "France",
+    "RealDeskName": "F-003"
+  }
+  {
+
+    "Name": "FDesk4",
+    "ECCDesk": true,
+    "CustomerService": true,
+    "Floor": "France",
+    "RealDeskName": "F-004"
+  }
+]

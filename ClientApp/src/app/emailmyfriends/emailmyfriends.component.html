@@ -1,0 +1,45 @@
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-8 col-sm-offset-2 well">
+      <div class="col-sm-12 form-legend">
+        <h2>Email Your colleges telling them when you will be heading into the office</h2>
+      </div>
+      <div class="col-sm-12 form-column">
+        <form action="success" method="post">
+          <div class="form-group">
+
+
+            <label for="email">Email address of colleges</label>
+            <ng-select [items]="items"
+            bindLabel="name"
+            bindValue="name"
+            placeholder="Type your colleges name"
+            appendTo="body"
+            multiple="true"
+            [(ngModel)]="selectedEmails" [ngModelOptions]="{standalone: true}"
+           >
+          </ng-select>
+
+          </div>
+          <div class="form-group">
+            <label for="email-confirm">Select your booking date</label>           
+            <select [(ngModel)]="selectedDates" [ngModelOptions]="{standalone: true}" id="email-confirm" name="emailConfirm" class="form-control">
+              <option *ngFor="let d of desks" [value]="d.bookedto">
+                {{d.bookedto | date:'mediumDate'}}
+              </option>
+
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="country">Personal Message</label>
+            <textarea [(ngModel)]="Message" [ngModelOptions]="{standalone: true}" type="text" rows="10" id="country" name="country" class="form-control" placeholder="Optional">
+</textarea>
+          </div>
+
+          <input type="submit" (click)="sendmessage()" value="Send" class="btn btn-primary">
+        </form>
+      </div>
+    </div>
+  </div>

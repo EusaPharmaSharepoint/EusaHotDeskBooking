@@ -1,0 +1,20 @@
+<ngx-smart-modal #popupOne [identifier]="'popupOne'">
+  <div >
+    <h1>EUSA Pharma - Return to the Office Guidelines </h1>
+    <div>
+      •	You are feeling unwell on the day or if you have a temperature. We recommend whenever feasible, that you do check your temperature prior to coming into the office.
+      <br/>
+      •	If you have experienced any COVID-19 symptoms in the previous 7 days
+      <br/>
+      •	Have been in close contact with anyone with a confirmed case of COVID-19 in the last 14 days
+      <br/>
+      •	Have travelled to any country within the previous 14 days that is not a government-approved travel corridor https://www.gov.uk/guidance/coronavirus-covid-19-travel-corridors
+      <br/>
+      By agreeing to these guidelines, if you are tested positive for COVID-19 after working in the office, you must immediately contact your line manager or a member of the HR team to inform them. We will then contact those that were in the office at the same time and advise that there has been a confirmed positive case
+      <input type="button"  value="Accept" class="button-small btn-primary btn-success" />
+      <hr />
+    </div>
+
+    <button (click)="popupOne.close()">Close</button>
+  </div>
+</ngx-smart-modal>

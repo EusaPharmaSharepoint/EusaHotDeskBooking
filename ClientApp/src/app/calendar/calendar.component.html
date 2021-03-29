@@ -1,0 +1,19 @@
+<h1>Hot-Desk Booking</h1>
+<table class="table">
+  <thead>
+
+  <th scope="col">Desk-Location</th>
+  <th scope="col">Floor</th>
+  <th scope="col">Booking Date</th>
+  <th scope="col">Remove</th>
+
+  </thead>
+  <tbody>
+    <tr *ngFor="let desk of desks">
+      <td>{{desk.location.realDeskName}}</td>
+      <td>{{desk.location.floor}}</td>
+      <td>{{formatDateTimeTimeZone(desk.bookedto) | date:'mediumDate' }}</td>
+      <td><input (click)="remove(desk)" type="button" class="btn-primary btn-danger" value="Remove" /></td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,22 @@
+<!-- Copyright (c) Microsoft Corporation.
+     Licensed under the MIT License. -->
+
+<!-- <calendarHtml> -->
+<h1>My Booking</h1>
+<table class="table">
+  <thead>
+    <th scope="col">Employee</th>
+    <th scope="col">Desk Location</th>
+    <th scope="col">Start</th>
+    <th scope="col">End</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let event of events">
+      <td>{{event.organizer.emailAddress.name}}</td>
+      <td>{{event.subject}}</td>
+      <td>{{formatDateTimeTimeZone(event.start) | date:'short' }}</td>
+      <td>{{formatDateTimeTimeZone(event.end) | date: 'short' }}</td>
+    </tr>
+  </tbody>
+</table>
+<!-- </calendarHtml> -->

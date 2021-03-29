@@ -1,0 +1,80 @@
+<!-- Copyright (c) Microsoft Corporation.
+     Licensed under the MIT License. -->
+
+<!-- <homeHtml> -->
+  <div class="title-strip bg-featured" style="background-color:#b4cd0a">
+    <div class="container-lg">
+        <div class="row animated fadeIn animation-delay-500 align-items-center justify-content-center">
+                <div class="mb-4 mb-md-0 text-center text-md-right">
+                    <img src="assets/home-icon.png" class="img-fluid" alt="EUSA feature icon">
+                </div>
+                <div class="col-xs-12 col-md-1 d-none d-md-block">
+                    <div class="mx-auto vr">
+                    </div>
+                </div>
+            <div class="col-xs-12 text-center text-md-left col-md-7">
+                <h3>We are passionate and committed to make our products globally available to enable patients to live and embrace life</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="jumbotron">
+  <div *ngIf="authenticated; then welcomeUser else signInPrompt">
+
+
+  </div>
+  <ng-template #welcomeUser>
+    <h4>Welcome {{ user.displayName }}!</h4>
+
+    <div class="row">
+
+
+    <div class="col-12 col-lg-4 mb-30">
+    <div routerLink="/floorpath" class="card popout" style="cursor: pointer;">
+      <img class="card-img-top" src="//images.ctfassets.net/e7g1z7ufllrx/6GvDpwoGF4CASqShnZfQ0b/3cfb09074c2cc07ae69f4682cfa155de/service-icon.png">
+      <div class="card-body pb-0 d-flex flex-column">
+          <h4 class="card-title" style="color:#15afbe;font-size: 20px;">Book your desk</h4>
+
+          <span class="button mt-auto mx-auto">Find Out More</span>
+      </div>
+  </div>
+
+</div>
+
+<div class="col-12 col-lg-4 mb-30">
+  <div routerLink="/calendar" class="card popout" style="cursor: pointer;">
+    <img class="card-img-top" src="//images.ctfassets.net/e7g1z7ufllrx/7GP9NWZYE5qpDStkkWgsrU/5ab053b276c4ed2138244ee27dcfb967/briefcase.png">
+    <div class="card-body pb-0 d-flex flex-column">
+
+       <h4 class="card-title" style="color:#e94b32;font-size: 20px;">
+
+         View your bookings
+         </h4>
+        <span class="button mt-auto mx-auto">Find Out More</span>
+    </div>
+</div>
+
+</div>
+<div class="col-12 col-lg-4 mb-30">
+  <div class="card popout">
+    <img class="card-img-top" src="//images.ctfassets.net/e7g1z7ufllrx/4PYsWwO5z6mbzZ9EPK4tXP/f2462662ac9e76b69af0c65c02242cf5/service-icon-2.png">
+    <div class="card-body pb-0 d-flex flex-column">
+        <h4 class="card-title" style="color:#5a3282;font-size: 20px;">Inform your colleges</h4>
+
+        <span class="button mt-auto mx-auto">Find Out More</span>
+    </div>
+</div>
+
+</div>
+</div>
+  </ng-template>
+  <ng-template #signInPrompt>
+    <button class="btn btn-primary btn-large" role="button" (click)="signIn()">Click here to sign in</button>
+  </ng-template>
+
+
+</div>
+<!-- </homeHtml> -->

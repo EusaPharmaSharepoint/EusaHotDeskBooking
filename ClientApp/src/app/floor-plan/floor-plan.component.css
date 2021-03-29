@@ -1,0 +1,751 @@
+.fPsrc {
+  height: 500px;
+  height: 500px;
+}
+
+.legend {
+  float: left;
+  height: 500px;
+  width: 100px;
+  position: absolute;
+  z-index: 1;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.alternate {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 800px;
+  margin: 200px;
+  padding: 16px;
+  border-radius: 4px;
+  background: #fff;
+}
+
+  .alternate li {
+    -webkit-flex-grow: 1;
+    -moz-flex-grow: 1;
+    flex-grow: 1;
+    -ms-flex-positive: 1;
+    -webkit-flex-basis: 0;
+    -moz-flex-basis: 0;
+    flex-basis: 0;
+    -ms-flex-preferred-size: 0;
+    margin-right: 16px;
+  }
+
+    .alternate li:last-child {
+      margin-right: 0;
+    }
+
+    .alternate li img {
+      border-radius: 2px;
+    }
+
+#horz-list ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+  float: left;
+  width: 50%;
+}
+
+#horz-list ul li {
+  display: inline;
+}
+
+#horz-list ul li a {
+  text-decoration: none;
+  padding: 0.2em 1.1em;
+  border-right: 1px solid rgba(255, 255, 255, 0.8);
+  margin: 0 0 0 -6px;
+}
+
+#horz-list ul li:last-child a {
+  border: none;
+}
+
+#horz-list ul li a:hover {
+  background: rgba(255, 255, 255, 0.8);
+  color: #1a1a1a;
+}
+
+#Desk9 {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  top: 275px;
+  left: 611px;
+  cursor: pointer;
+}
+.mat-form-field {
+min-width:100%;
+
+}
+
+#Desk19 {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  top: 302px;
+  left: 450px;
+  cursor: pointer;
+}
+
+#Desk21 {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  top: 263px;
+  left: 450px;
+  cursor: pointer;
+}
+#Desk33 {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  top: 263px;
+  left: 371px;
+  cursor: pointer;
+}
+#Desk35 {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  top: 282px;
+  left: 342px;
+  cursor: pointer;
+}
+
+#Desk37 {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  top: 280px;
+  left: 285px;
+  cursor: pointer;
+}
+
+#Desk43 {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  top: 303px;
+  left: 211px;
+  cursor: pointer;
+}
+
+
+#Desk31 {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  top: 303px;
+  left: 371px;
+  cursor: pointer;
+}
+#Desk27 {
+ margin: 50px auto;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    z-index: 2;
+    top: 265px;
+    left: 411px;
+    cursor: pointer;
+}
+#Desk40 {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  top: 307px;
+  left: 268px;
+  cursor: pointer;
+}
+
+#Desk50 {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  top: 240px;
+  left: 283px;
+  cursor: pointer;
+}
+
+#Desk11 {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  top: 310px;
+  left: 535px;
+  cursor: pointer;
+}
+#Desk60 {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  top: 210px;
+  left: 490px;
+  cursor: pointer;
+}
+#Desk2Ground {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  top: 60px;
+  left: 140px;
+  cursor: pointer;
+}
+#Desk4Ground {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  top: 20px;
+  left: 165px;
+  cursor: pointer;
+}
+
+#Desk9Ground {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  top: 120px;
+  left: 140px;
+  cursor: pointer;
+}
+
+#Desk14Ground {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  top: 180px;
+  left: 135px;
+  cursor: pointer;
+}
+
+#Desk17Ground {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  top: 20px;
+  left: 260px;
+  cursor: pointer;
+}
+
+#Desk19Ground {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  top: 20px;
+  left: 315px;
+  cursor: pointer;
+}
+
+#Desk22Ground {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  top: 60px;
+  left: 285px;
+  cursor: pointer;
+}
+#Desk24Ground {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  top: 60px;
+  left: 345px;
+  cursor: pointer;
+}
+
+#Desk25Ground {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  top: 100px;
+  left: 255px;
+  cursor: pointer;
+}
+#Desk27Ground {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  top: 100px;
+  left: 315px;
+  cursor: pointer;
+}
+
+#Desk30Ground {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  top: 140px;
+  left: 285px;
+  cursor: pointer;
+}
+#Desk32Ground {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  top: 140px;
+  left: 345px;
+  cursor: pointer;
+}
+
+#Desk38Ground {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  top: 200px;
+  left: 285px;
+  cursor: pointer;
+}
+#Desk40Ground {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  top: 200px;
+  left: 344px;
+  cursor: pointer;
+}
+
+#Desk42Ground {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  top: 305px;
+  left: 245px;
+  cursor: pointer;
+}
+#Desk43Ground {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  top: 335px;
+  left: 285px;
+  cursor: pointer;
+}
+
+#Desk66 {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  top: 192px;
+  left: 525px;
+  cursor: pointer;
+}
+#Desk67 {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  top: 170px;
+  left: 527px;
+  cursor: pointer;
+}
+#Desk70 {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  top: 169px;
+  left: 562px;
+  cursor: pointer;
+}
+#Desk13 {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  top: 300px;
+  left: 493px;
+  cursor: pointer;
+}
+
+#Desk25 {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  top: 302px;
+  left: 411px;
+  cursor: pointer;
+}
+
+
+#Desk42 {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  top: 284px;
+  left: 240px;
+  cursor: pointer;
+}
+
+#Desk51 {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  top: 171px;
+  left: 314px;
+  cursor: pointer;
+}
+
+
+
+#Desk17 {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  top: 165px;
+  left: 130px;
+  cursor: pointer;
+}
+
+#Desk02 {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  top: 240px;
+  left: 536px;
+  cursor: pointer;
+}
+#Desk09 {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  top: 280px;
+  left: 515px;
+  cursor: pointer;
+}
+
+
+#Desk07 {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  top: 280px;
+  left: 555px;
+  cursor: pointer;
+}
+
+#Desk46 {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  top: 240px;
+  left: 237px;
+  cursor: pointer;
+}
+
+#Desk53 {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  top: 203px;
+  left: 332px;
+  cursor: pointer;
+}
+#Desk58 {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  top: 205px;
+  left: 375px;
+  cursor: pointer;
+}
+
+#Desk14 {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  top: 201px;
+  left: 95px;
+  cursor: pointer;
+}
+#Desk6 {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  /* margin-top: -150px; */
+  /* margin-left: 298px; */
+  top: 34%;
+  left: 703px;
+  cursor: pointer;
+
+
+}
+.loginForm {
+  background: #e9ecef;
+  box-shadow: 1px 1px 4px #dcdcdc;
+}
+
+#Desk5 {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  /* margin-top: -150px; */
+  /* margin-left: 298px; */
+  top: 33%;
+  left: 703px;
+  cursor: pointer;
+}
+
+#Desk4 {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  /* margin-top: -150px; */
+  /* margin-left: 298px; */
+  top: 30%;
+  left: 803px;
+  cursor: pointer;
+}
+#Desk3 {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  /* margin-top: -150px; */
+  /* margin-left: 298px; */
+  top: 10%;
+  left: 703px;
+  cursor: pointer;
+
+
+}#Desk1 {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  /* margin-top: -150px; */
+  /* margin-left: 298px; */
+  top: 20%;
+  left: 703px;
+  cursor: pointer;
+
+
+}#Desk2 {
+  margin: 50px auto;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 2;
+  /* margin-top: -150px; */
+  /* margin-left: 298px; */
+  top: 30%;
+  left: 703px;
+  cursor: pointer;
+
+
+}
+.pulse {
+	width: 10px;
+	height: 10px;
+	border: 5px solid #00ff1d;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	background-color: #716f42;
+	z-index: 10;
+	position: absolute;
+	left: 15px;
+	top: 15px;
+}
+
+
+.redpulse {
+  width: 10px;
+  height: 10px;
+  border: 5px solid red;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  background-color: red;
+  z-index: 10;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+}
+.dot {
+	border: 10px solid #00ff1d;
+	background: transparent;
+	-webkit-border-radius: 60px;
+	-moz-border-radius: 60px;
+	border-radius: 60px;
+	height: 50px;
+	width: 50px;
+	-webkit-animation: pulse 1s ease-out;
+	-moz-animation: pulse 1s ease-out;
+	animation: pulse 1s ease-out;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	position: absolute;
+	top: -10px;
+	left: -10px;
+	z-index: 1;
+	opacity: 0;
+}
+
+.reddot {
+  border: 10px solid red;
+  background: transparent;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  border-radius: 60px;
+  height: 50px;
+  width: 50px;
+  -webkit-animation: pulse 1s ease-out;
+  -moz-animation: pulse 1s ease-out;
+  animation: pulse 1s ease-out;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  z-index: 1;
+  opacity: 0;
+}
+@-moz-keyframes pulse {
+ 0% {
+	-moz-transform: scale(0);
+	opacity: 0.0;
+ }
+ 25% {
+	-moz-transform: scale(0);
+	opacity: 0.1;
+ }
+ 50% {
+	-moz-transform: scale(0.1);
+	opacity: 0.3;
+ }
+ 75% {
+	-moz-transform: scale(0.5);
+	opacity: 0.5;
+ }
+ 100% {
+	-moz-transform: scale(1);
+	opacity: 0.0;
+ }
+}
+@-webkit-keyframes "pulse" {
+ 0% {
+	-webkit-transform: scale(0);
+	opacity: 0.0;
+ }
+ 25% {
+	-webkit-transform: scale(0);
+	opacity: 0.1;
+ }
+ 50% {
+	-webkit-transform: scale(0.1);
+	opacity: 0.3;
+ }
+ 75% {
+	-webkit-transform: scale(0.5);
+	opacity: 0.5;
+ }
+ 100% {
+	-webkit-transform: scale(1);
+	opacity: 0.0;
+ }
+}
